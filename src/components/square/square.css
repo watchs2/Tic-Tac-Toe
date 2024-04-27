@@ -1,0 +1,50 @@
+
+.square {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid black;
+    text-align: center;
+    
+  }
+
+  .winner {
+    background-color: yellow;
+  }
+
+  .winnerx{
+    background-color: #ff6e7a;
+
+  }
+  .winnero{
+    background-color: rgb(120, 120, 253);
+  }
+  
+.square.o{
+    color: blue;
+}
+
+  
+      .square.x {
+        color: #f30518;
+    
+      } 
+  /*.square{
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    
+    width: 34px;
+}*/

@@ -1,0 +1,48 @@
+.MultiplayerMenu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 80%;
+  max-width: 400px;
+  background-color: #9AD1D4;
+  border-radius: 10px;
+  border: 2px solid #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+h2 {
+  margin-top: 0;
+}
+
+.SectionMulti {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 250px; 
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.jogar{
+  margin-top: 10px; 
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+

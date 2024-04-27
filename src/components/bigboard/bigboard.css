@@ -1,0 +1,40 @@
+.Game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-info {
+  background-color: #f2f2f2;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 55px;
+}
+
+.info-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.player-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.player-turn {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.red-x {
+  color: red;
+}
+
+.blue-o {
+  color: blue;
+}

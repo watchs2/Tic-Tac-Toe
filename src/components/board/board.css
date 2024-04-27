@@ -1,0 +1,24 @@
+
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 160px;
+    margin-bottom: 10px;
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .big-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+  }
+  .board.winning-x {
+    background-color: rgba(116, 21, 21, 0.904);
+  }
+  
+  .board.winning-o {
+    background-color: rgb(23, 23, 105);
+  }

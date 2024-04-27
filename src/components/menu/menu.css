@@ -1,0 +1,46 @@
+body {
+    background-color: #C2F9BB;
+  }
+  
+  .Menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 80%;
+    max-width: 400px;
+    background-color: #9AD1D4;
+    border-radius: 10px;
+    border: 2px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .MenuButton{
+    margin-bottom: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+  }
+
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
